@@ -17,7 +17,6 @@ public class Solution {
                 container.delete(0, first + 1);
             }else {
                 container.append(s.charAt(i));
-
             }
 
             if(container.length() > max) {
@@ -30,6 +29,10 @@ public class Solution {
         }
 
         return max;
+    }
+
+    public static int lengthOfLongestSubstringTwo(String s) {
+        return 0;
     }
 
     public static void main(String[] args) {
